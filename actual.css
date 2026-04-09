@@ -1,6 +1,10 @@
 /* You Need A - Theme! Dark Version */
+/* Theme is in HSL (Hue, Saturation, Lightness) format to make it easy for you to change the hue, saturation or lightness of any color to your satisfaction without knowing hex codes. */
+/* Higher percentage is more saturated and lighter. */
 
 :root {
+
+/* Admonitions */  
 --color-errorBackground: hsl(350, 94%, 28%);
 --color-errorBorder: hsl(356, 75%, 53%);
 --color-errorText: hsl(0, 98%, 80%);
@@ -20,6 +24,7 @@
 --color-warningText: hsl(53, 88%, 66%);
 --color-warningTextDark: hsl(49, 100%, 96%);
 --color-warningTextLight: hsl(47, 79%, 51%);
+  
 --color-buttonBareBackground: transparent;
 --color-buttonBareBackgroundActive: rgba(200, 200, 200, .5);
 --color-buttonBareBackgroundHover: rgba(200, 200, 200, .3);
@@ -27,6 +32,7 @@
 --color-buttonBareDisabledText: hsl(235, 10%, 79%);
 --color-buttonBareText: hsl(234, 100%, 82%);
 --color-buttonBareTextHover: hsl(234, 100%, 82%);
+  
 --color-budgetCurrentMonth: hsl(237, 48%, 9%);
 --color-budgetHeaderCurrentMonth: hsl(235, 35%, 20%);
 --color-budgetHeaderOtherMonth: hsl(235, 35%, 20%);
@@ -40,15 +46,18 @@
 --color-toBudgetNegative: hsl(359, 82%, 70%);
 --color-toBudgetPositive: hsl(86, 70%, 43%);
 --color-toBudgetZero: hsl(236, 8%, 64%);
+  
 --color-calendarBackground: hsl(234, 64%, 16%);
 --color-calendarCellBackground: hsl(237, 48%, 9%);
 --color-calendarItemBackground: hsl(234, 64%, 16%);
 --color-calendarItemText: hsl(0, 0%, 100%);
 --color-calendarSelectedBackground: hsl(234, 95%, 63%);
 --color-calendarText: hsl(0, 0%, 100%);
+  
 --color-cardBackground: hsl(235, 24%, 10%);
 --color-cardBorder: hsl(234, 95%, 63%);
 --color-cardShadow: hsl(234, 35%, 30%);
+  
 --color-checkboxBackgroundSelected: hsl(234, 85%, 55%);
 --color-checkboxBorderSelected: hsl(234, 85%, 55%);
 --color-checkboxShadowSelected: hsl(234, 100%, 69%);
@@ -56,9 +65,11 @@
 --color-checkboxToggleBackground: hsl(228, 17%, 17%);
 --color-checkboxToggleBackgroundSelected: hsl(234, 87%, 43%);
 --color-checkboxToggleDisabled: hsl(219, 9%, 50%);
+  
 --color-floatingActionBarBackground: hsl(234, 87%, 30%);
 --color-floatingActionBarBorder: hsl(234, 87%, 30%);
 --color-floatingActionBarText: hsl(0, 0%, 100%);
+  
 --color-formInputBackground: hsl(234, 40%, 23%);
 --color-formInputBackgroundSelected: hsl(234, 35%, 30%);
 --color-formInputBackgroundSelection: hsl(234, 82%, 60%);
@@ -74,9 +85,11 @@
 --color-formInputTextSelection: hsl(234, 40%, 23%);
 --color-formLabelBackground: hsl(234, 97%, 30%);
 --color-formLabelText: hsl(238, 95%, 94%);
+  
 --color-markdownDark: hsl(234, 80%, 50%);
 --color-markdownLight: hsl(234, 87%, 30%);
 --color-markdownNormal: hsl(234, 87%, 37%);
+  
 --color-buttonMenuBackground: transparent;
 --color-buttonMenuBackgroundHover: rgba(200, 200, 200, .25);
 --color-buttonMenuBorder: hsl(234, 30%, 50%);
@@ -87,6 +100,7 @@
 --color-buttonMenuSelectedTextHover: hsl(35, 82%, 29%);
 --color-buttonMenuText: hsl(0, 0%, 100%);
 --color-buttonMenuTextHover: hsl(0, 0%, 100%);
+  
 --color-menuAutoCompleteBackground: hsl(234, 64%, 16%);
 --color-menuAutoCompleteBackgroundHover: hsl(233, 30%, 40%);
 --color-menuAutoCompleteItemText: hsl(0, 0%, 100%);
@@ -102,6 +116,7 @@
 --color-menuItemTextHover: hsl(0, 0%, 100%);
 --color-menuItemTextSelected: hsl(234, 85%, 60%);
 --color-menuKeybindingText: hsl(234, 100%, 78%);
+  
 --color-mobileAccountShadow: hsl(234, 35%, 30%);
 --color-mobileAccountText: hsl(234, 88%, 34%);
 --color-mobileConfigServerViewTheme: hsl(234, 80%, 50%);
@@ -115,8 +130,10 @@
 --color-mobilePageBackground: hsl(234, 35%, 30%);
 --color-mobileTransactionSelected: hsl(234, 85%, 60%);
 --color-mobileViewTheme: hsl(234, 87%, 30%);
+  
 --color-modalBackground: hsl(235, 24%, 10%);
 --color-modalBorder: hsl(233, 30%, 40%);
+  
 --color-buttonNormalBackground: hsl(234, 40%, 23%);
 --color-buttonNormalBackgroundHover: hsl(233, 30%, 40%);
 --color-buttonNormalBorder: hsl(235, 29%, 70%);
@@ -128,10 +145,13 @@
 --color-buttonNormalShadow: rgba(0, 0, 0, 0.4);
 --color-buttonNormalText: hsl(0, 0%, 100%);
 --color-buttonNormalTextHover: hsl(0, 0%, 100%);
+  
 --color-numberNegative: hsl(359, 82%, 70%);
 --color-numberNeutral: hsl(0, 0%, 100%);
 --color-numberPositive: hsl(86, 70%, 43%);
+  
 --color-overlayBackground: rgba(0, 0, 0, 0.3);
+  
 --color-pageBackground: hsl(235, 36%, 13%);
 --color-pageBackgroundBottomRight: hsl(228, 17%, 17%);
 --color-pageBackgroundLineBottom: hsl(212, 34%, 89%);
@@ -146,6 +166,7 @@
 --color-pageTextLinkLight: hsl(234, 100%, 78%);
 --color-pageTextPositive: hsl(234, 100%, 78%);
 --color-pageTextSubdued: hsl(235, 10%, 79%);
+  
 --color-pillBackground: hsl(234, 64%, 16%);
 --color-pillBackgroundLight: hsl(234, 64%, 16%);
 --color-pillBackgroundSelected: hsl(234, 90%, 43%);
@@ -156,6 +177,7 @@
 --color-pillTextHighlighted: hsl(234, 100%, 78%);
 --color-pillTextSelected: hsl(0, 0%, 100%);
 --color-pillTextSubdued: hsl(235, 10%, 79%);
+  
 --color-buttonPrimaryBackground: hsl(234, 85%, 60%);
 --color-buttonPrimaryBackgroundHover: hsl(234, 90%, 43%);
 --color-buttonPrimaryBorder: hsl(234, 85%, 60%);
@@ -165,6 +187,7 @@
 --color-buttonPrimaryShadow: rgba(0, 0, 0, 0.6);
 --color-buttonPrimaryText: hsl(0, 0%, 100%);
 --color-buttonPrimaryTextHover: hsl(0, 0%, 100%);
+  
 --color-reportsBlue: hsl(234, 95%, 63%);
 --color-reportsChartFill: hsl(234, 100%, 82%);
 --color-reportsGray: hsl(236, 8%, 64%);
@@ -175,6 +198,16 @@
 --color-reportsNumberNeutral: hsl(0, 0%, 100%);
 --color-reportsNumberPositive: hsl(86, 70%, 43%);
 --color-reportsRed: hsl(1, 81%, 63%);
+--color-chartQual1: hsl(238, 98%, 66%);
+--color-chartQual2: hsl(86, 64%, 54%);
+--color-chartQual3: hsl(48, 92%, 54%);
+--color-chartQual4: hsl(356, 54%, 59%);
+--color-chartQual5: hsl(234, 100%, 73%);
+--color-chartQual6: hsl(87, 73%, 65%);
+--color-chartQual7: hsl(47, 91%, 65%);
+--color-chartQual8: hsl(0, 64%, 71%);
+--color-chartQual9: hsl(234, 99%, 85%);
+  
 --color-sidebarBackground: hsl(238, 45%, 13%);
 --color-sidebarBudgetName: hsl(0, 0%, 100%);
 --color-sidebarItemAccentSelected: hsl(234, 99%, 78%);
@@ -184,6 +217,7 @@
 --color-sidebarItemBackgroundPositive: hsl(86, 64%, 54%);
 --color-sidebarItemText: hsl(0, 0%, 100%);
 --color-sidebarItemTextSelected: hsl(238, 100%, 90%);
+  
 --color-tableBackground: hsl(237, 48%, 9%);
 --color-tableBorder: hsl(233, 30%, 40%);
 --color-tableBorderHover: hsl(234, 97%, 70%);
@@ -202,13 +236,16 @@
 --color-tableTextLight: hsl(0, 0%, 100%);
 --color-tableTextSelected: hsl(0, 0%, 100%);
 --color-tableTextSubdued: hsl(235, 10%, 79%);
+  
 --color-noteTagBackground: hsl(234, 87%, 40%);
 --color-noteTagBackgroundHover: hsl(234, 80%, 50%);
 --color-noteTagDefault: hsl(234, 87%, 40%);
 --color-noteTagText: hsl(0, 0%, 100%);
+  
 --color-tooltipBackground: hsl(234, 40%, 23%);
 --color-tooltipBorder: hsl(234, 35%, 30%);
 --color-tooltipText: hsl(0, 0%, 100%);
+  
 --color-upcomingBackground: hsl(234, 87%, 40%);
 --color-upcomingBorder: hsl(233, 30%, 40%);
 --color-upcomingText: hsl(0, 0%, 100%);

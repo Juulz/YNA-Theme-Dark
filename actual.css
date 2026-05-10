@@ -198,15 +198,15 @@
 --color-reportsNumberNeutral: hsl(0, 0%, 100%);
 --color-reportsNumberPositive: hsl(86, 70%, 43%);
 --color-reportsRed: hsl(1, 81%, 63%);
---color-chartQual1: hsl(238, 98%, 66%);
---color-chartQual2: hsl(86, 64%, 54%);
---color-chartQual3: hsl(48, 92%, 54%);
---color-chartQual4: hsl(356, 54%, 59%);
---color-chartQual5: hsl(234, 100%, 73%);
---color-chartQual6: hsl(87, 73%, 65%);
---color-chartQual7: hsl(47, 91%, 65%);
---color-chartQual8: hsl(0, 64%, 71%);
---color-chartQual9: hsl(234, 99%, 85%);
+--color-chartQual1: #5359fd;
+--color-chartQual2: #94d53f;
+--color-chartQual3: #f6ca1e);
+--color-chartQual4: #cf5e66;
+--color-chartQual5: #7583ff;
+--color-chartQual6: #ace765;
+--color-chartQual7: #f7d455;
+--color-chartQual8: #e48686;
+--color-chartQual9: #b3baff;
   
 --color-sidebarBackground: hsl(238, 45%, 13%);
 --color-sidebarBudgetName: hsl(0, 0%, 100%);

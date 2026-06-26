@@ -209,7 +209,6 @@
 --color-chartQual9: #b3baff;
   
 --color-sidebarBackground: hsl(238, 45%, 13%);
---color-sidebarBudgetName: hsl(0, 0%, 100%);
 --color-sidebarItemAccentSelected: hsl(234, 99%, 78%);
 --color-sidebarItemBackgroundFailed: hsl(0, 90%, 69%);
 --color-sidebarItemBackgroundHover: hsl(237, 51%, 23%);
@@ -217,6 +216,9 @@
 --color-sidebarItemBackgroundPositive: hsl(86, 64%, 54%);
 --color-sidebarItemText: hsl(0, 0%, 100%);
 --color-sidebarItemTextSelected: hsl(238, 100%, 90%);
+--color-sidebarBudgetName: #94d53f;
+--color-tableTextItemAdded: #ffb61a;
+--color-sidebarItemTextUpdated: #94d53f;  
   
 --color-tableBackground: hsl(237, 48%, 9%);
 --color-tableBorder: hsl(233, 30%, 40%);

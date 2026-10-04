@@ -4,6 +4,9 @@
 
 :root {
 
+--color-sidebarHeaderText: var(--color-sidebarBudgetName);
+--color-sidebarBrand: var(--color-sidebarBudgetName);  
+
 /* Admonitions */  
 --color-errorBackground: hsl(350, 94%, 28%);
 --color-errorBorder: hsl(356, 75%, 53%);
